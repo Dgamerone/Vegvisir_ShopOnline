@@ -13,7 +13,11 @@
     <div class="consolidado">
         <aside>
             <header>
-                <h1 class="logo">Vegvisir</h1>
+                <img
+            src="image/Logo_Vegvisir_White_Full.png"
+            alt="logo"
+            width="100"
+            />
             </header>
             <nav>
                 <ul>
@@ -29,17 +33,23 @@
                 </ul>
             </nav>
             <footer>
-                <p class="texto-footer">Revisar Luego</p>
+                <div class="col text-frase">
+                    <h5>Frase del día</h5>
+                    <ul id="texto-frase">
+                  <!-- Se completa con el JS -->
+                    </ul>
             </footer>
         </aside>
         <main>
             <h2 class="titulo-principal">Carrito</h2>
             <div class="contenedor-carrito">
-                <p class="carrito-vacio">Tu Carrito esta vacio. <i class="bi bi-emoji-frown"></i></p>
+                <p id="carrito-vacio" class="carrito-vacio">Para verlo lleno, tenes que comprar je je je. <i class="bi bi-emoji-frown"></i></p>
 
-                <div class="carrito-productos disabled">
+                <div id="carrito-productos" class="carrito-productos disabled">
 
-                    <div class="carrito-producto">
+                    <!-- Esto se autocompleta con el JS -->
+
+                    <!-- <div class="carrito-producto">
                         <img class="carrito-producto-imagen" src="image/Buzos_Vegvisir_Todos.png" alt="Buzos">
                         <div class="carrito-producto-titulo">
                             <small>Titulo</small>
@@ -79,13 +89,13 @@
                             <p>$7800</p>                            
                         </div>
                         <button class="carrito-producto-eliminar"><i class="bi bi-trash3-fill"></i></button>                    
-                    </div>
+                    </div> -->
 
                 </div>
 
-                <div class="carrito-acciones disabled">
+                <div id="carrito-acciones" class="carrito-acciones disabled">
                     <div class="carrito-acciones-izquierda">
-                        <button class="carrito-acciones-vaciar">Vaciar Carrito</button>
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar Carrito</button>
                     </div>
 
                     <div class="carrito-acciones-derecha">
@@ -93,12 +103,12 @@
                             <p>Total:</p>
                             <p id="total">11700</p>
                         </div>
-                        <button class="carrito-acciones-comprar">Comprar Ahora</button>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar Ahora</button>
                         
                     </div>
                 </div>
 
-                <p class="carrito-vacio disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-sunglasses"></i></p>
+                <p id="carrito-comprado" class="carrito-comprado disabled">Te copaste comprando y por ello, Muchas gracias!!!. <i class="bi bi-emoji-sunglasses"></i></p>
                 
 
             </div>
